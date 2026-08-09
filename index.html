@@ -4481,9 +4481,9 @@ function kirimWhatsApp() {
     pesan += "Paket : " + fiturExclusive.paket + "\n";
 
     const hargaPaket = {
-        "Basic": 55000,
-        "Premium": 80000,
-        "Exclusive / Full Fitur": 120000
+        "Basic": 70000,
+        "Premium": 90000,
+        "Exclusive / Full Fitur": 100000
     };
     const hargaDasarPaket = hargaPaket[fiturExclusive.paket] || 0;
     pesan += "Harga Paket : Rp" + hargaDasarPaket.toLocaleString("id-ID") + "\n";
